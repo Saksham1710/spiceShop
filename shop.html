@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/shop.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="spices.html">Spices</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+   <article>
+       <table>
+           <tr>
+               <th>Price</th>
+               <th>$ per 100g</th>
+               <th>$ per kg</th>
+               <th>Quantity</th>
+               <th rowspan="16" id="totalBill">
+               <input type="button" value="Calculate" id="final" onclick="bill()"><br><br>
+               <label id="showTotal"></label> <br><br>
+               <input type="submit" value="Submit" onclick="alert('Your order is submitted and will be delivered in 3-4 business days')">
+                </th>
+           </tr>
+           <tr>
+               <th>Cayenne Pepper</th>
+               <td>$5.99</td>
+               <td>$59.90</td>
+               <td><label for="quantityCayennePepper"></label><input type="text" name="custQuantity" value="0" id="quantityCayennePepper">gm</td>
+           </tr>
+           <tr>
+               <th>Cloves</th>
+               <td>$8.99</td>
+               <td>$89.90</td>
+               <td><label for="quantityCloves"></label><input type="text" name="custQuantity" value="0" id="quantityCloves">gm</td>
+           </tr>
+           <tr>
+               <th>Garam Masala</th>
+               <td>$4.99</td>
+               <td>$49.90</td>
+               <td><label for="quantityGaramMasala"></label><input type="text" name="custQuantity" value="0" id="quantityGaramMasala">gm</td>
+           </tr>
+           <tr>
+               <th>Garlic</th>
+               <td>$2.99</td>
+               <td>$29.90</td>
+               <td><label for="quantityGarlic"></label><input type="text" name="custQuantity" value="0" id="quantityGarlic">gm</td>
+           </tr>
+           <tr>
+               <th>Fenugreek</th>
+               <td>$4.99</td>
+               <td>$49.90</td>
+               <td><label for="quantityFenugreek"></label><input type="text" name="custQuantity" value="0" id="quantityFenugreek">gm</td>
+           </tr>
+           <tr>
+               <th>Fennel</th>
+               <td>$1.99</td>
+               <td>$19.90</td>
+               <td><label for="quantityFennel"></label><input type="text" name="custQuantity" value="0" id="quantityFennel">gm</td>
+           </tr>
+           <tr>
+               <th>Cardamon</th>
+               <td>$7.99</td>
+               <td>$79.90</td>
+               <td><label for="quantityCardamon"></label><input type="text" name="custQuantity" value="0" id="quantityCardamon">gm</td>
+           </tr>
+           <tr>
+               <th>Turmeric</th>
+               <td>$3.99</td>
+               <td>$39.90</td>
+               <td><label for="quantityTurmeric"></label><input type="text" name="custQuantity" value="0" id="quantityTurmeric">gm</td>
+           </tr>
+           <tr>
+               <th>Saffron</th>
+               <td>$599.99</td>
+               <td>$5999.90</td>
+               <td><label for="quantitySaffron"></label><input type="text" name="custQuantity" value="0" id="quantitySaffron">gm</td>
+           </tr>
+           <tr>
+               <th>Cumin</th>
+               <td>$3.99</td>
+               <td>$39.90</td>
+               <td><label for="quantityCumin"></label><input type="text" name="custQuantity" value="0"id="quantityCumin">gm</td>
+           </tr>
+           <tr>
+               <th>Asafoetida</th>
+               <td>$7.99</td>
+               <td>$79.90</td>
+               <td><label for="quantityAsafoetida"></label><input type="text" name="custQuantity" value="0" id="quantityAsafoetida">gm</td>
+           </tr>
+           <tr>
+               <th>Cinnamon</th>
+               <td>$4.99</td>
+               <td>$49.90</td>
+               <td><label for="quantityCinnamon"></label><input type="text" name="custQuantity" value="0" id="quantityCinnamon">gm</td>
+           </tr>
+           <tr>
+               <th>Coriander</th>
+               <td>$3.99</td>
+               <td>$39.90</td>
+               <td><label for="quantityCoriander"></label><input type="text" name="custQuantity" value="0" id="quantityCoriander">gm</td>
+           </tr>
+           <tr>
+               <th>Mustard Seeds</th>
+               <td>$5.99</td>
+               <td>$59.90</td>
+               <td><label for="quantityMustardSeeds"></label><input type="text" name="custQuantity" value="0" id="quantityMustardSeeds">gm</td>
+           </tr>
+           <tr>
+               <th>Red Chilli Powder</th>
+               <td>$2.99</td>
+               <td>$29.90</td>
+               <td><label for="quantityRedChilliPowder"></label><input type="text" name="custQuantity" value="0" id="quantityRedChilliPowder">gm</td>
+           </tr>
+       </table>
+   </article>
+   <footer>
+    <p>Copyright @2022 Author: Saksham Vasudev</p>
+   </footer> 
+</body>
+</html>

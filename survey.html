@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/survey.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="spices.html">Spices</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+   <article>
+       <form action="https://formspree.io/f/xeqnzljj" method="post" class="spice">
+        <fieldset class="fieldset">
+            <legend>Customer Information</legend>
+            <div class="formRow">
+                <label for="title">Title</label>
+                <input name="custTitle" id="title" type="text">
+            </div>
+            <div class="formRow">
+                <label for="name">Name<sup>*</sup></label>
+                <input name="custName" id="name" type="text" placeholder="first and last name" required>
+            </div>
+            <div class="formRow">
+                <label for="address">Street Address</label>
+                <input name="custAddress" id="address" type="text">
+            </div>
+            <div class="formRow">
+                <label for="city">City</label>
+                <input name="custCity" id="city" type="text" value="Ormond Beach">
+            </div>
+            <div class="formRow">
+                <label for="state">State</label>
+                <input name="custState" id="state" type="text" value="FL">
+            </div>
+            <div class="formRow">
+                <label for="postalcode">Postal Code</label>
+                <input name="custPostalCode" id="postalcode" type="text" placeholder="nnnnn (-nnnn)">
+            </div>
+            <div class="formRow">
+                <label for="phone">Phone Number</label>
+                <input name="custPhone" id="phone" type="text" placeholder="(nnn) nnn-nnnn">
+            </div>
+            <div class="formRow">
+                <label for="email">Email<sup>*</sup></label>
+                <input name="custEmail" id="email" type="email" required>
+            </div>
+            <div class="formRow">
+                <label for="hearaboutus">Where did you hear about us?<br>(Select all that apply)</label>
+                <select size="5" name="custHearAboutUs" id="hearaboutus" multiple>
+                    <option>Internet</option>
+                    <option>Magazine</option>
+                    <option>Newspaper</option>
+                    <option>Word of Mouth</option>
+                    <option>Other</option>
+                </select>
+            </div>
+                <input name="custAddMeForMails" id="addmeformails" type="checkbox">
+                <label for="addmeformails">Add me to your mailing list for great coupons and specials!</label>
+    </fieldset>
+
+
+
+                <fieldset class="fieldset">
+                    <legend>Share your experience</legend>
+                    
+                    
+                    <div class="formRow">
+                        <label for="servicefriendly">Was the Delivery on time?</label>
+                        <fieldset class="optGroup">
+                            <label for="fYes">Yes</label>
+                            <input name="custServiceFriendly" id="fYes" type="radio" value="Yes">
+                            <label for="fNo">No</label>
+                            <input name="custServiceFriendly" id="fNo" type="radio" value="No">
+                    </fieldset>
+                    </div>
+                    <div class="formRow">
+                        <label for="ordercorrect">Was your order correct?</label>
+                        <fieldset class="optGroup">
+                            <label for="fYes">Yes</label>
+                            <input name="custOrderCorrect" id="fYes" type="radio" value="Yes">
+                            <label for="fNo">No</label>
+                            <input name="custOrderCorrect" id="fNo" type="radio" value="No">
+                    </fieldset>
+                    </div>
+                    
+                    <div class="formRow">
+                        <label for="rateservice">Rate the overall service<br>( 0 = poor; 10 = great )</label>0
+                        <input name="custRateService" id="rateservice" type="range" value="5" step="1"min="0" max="10">
+                        10
+                    </div>
+                    <div class="textarea">
+                        <label for="review">Tell us more about your experience!</label>
+                        <textarea name="custExp" id="riview"></textarea>
+                    </div>
+                </fieldset>
+                <div class="buttons">
+                    <input type="submit" value="Submit My Survey">
+                    <input type="reset" value="Cancel">
+                </div>
+    </form>
+   </article>
+   <footer>
+    <p>Copyright @2022 Author: Saksham Vasudev</p>
+   </footer> 
+</body>
+</html>

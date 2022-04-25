@@ -1,0 +1,33 @@
+fieldset{
+    border: 1px solid goldenrod;
+    /* border-radius: 2rem; */
+    background-color: rgb(241, 232, 181);
+    border-radius: 20px;
+    flex: 1 1 40%;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+article{
+    display: flex;
+    flex-flow: row wrap;
+}
+fieldset > div >h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: brown;
+    text-align: center;
+}
+fieldset > div > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+img{
+    width: 200px;
+    display: block;
+    float: left;
+    clear: right;
+    border-radius: 1rem;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}

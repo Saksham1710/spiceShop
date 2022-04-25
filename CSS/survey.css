@@ -1,0 +1,49 @@
+form.spice{
+    display: flex;
+    flex-flow: row wrap;
+}
+fieldset.fieldset{
+    background-color: rgb(241, 232, 181);
+       border-radius: 20px;
+       flex: 1 1 40%;
+       font-size: 0.85em;
+       padding: 10px;
+       margin: 10px;
+       border-style: none;
+       
+}
+
+legend{
+    background-color: rgba(247, 173, 35, 0.961);
+    color: white;
+    padding: 2px 4px 2px 4px;
+}
+div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+div.formRow > * {
+    flex: 1 1 140px;
+}
+textarea {
+    margin-top: 10px;
+    height: 120px;
+    width: 95%;
+}
+
+
+
+
+
+/*   Button Styles   */
+div.buttons {
+    text-align: center;
+    width: 100%;
+ }
+ input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+    color: brown;
+ }
